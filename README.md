@@ -6,7 +6,7 @@
 
 [![Rust](https://img.shields.io/badge/rust-1.70%2B-orange.svg)](https://www.rust-lang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
+
 
 [Features](#features) • [Quick Start](#quick-start) • [Documentation](#documentation) • [Examples](#examples)
 
