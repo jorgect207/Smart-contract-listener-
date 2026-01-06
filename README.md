@@ -536,22 +536,7 @@ A: Currently outputs raw hex. Event decoding can be added using the contract ABI
 **Q: Is this suitable for production?**  
 A: Yes, but consider adding state persistence, graceful shutdown, and proper logging for production use.
 
-## Roadmap
 
-Completed:
-- [x] JSON output format
-- [x] Webhook notifications
-- [x] File output
-
-Planned features:
-- [ ] Automatic event data decoding using contract ABIs
-- [ ] State persistence (resume from last processed block)
-- [ ] Multiple contract monitoring in single process
-- [ ] CSV output format
-- [ ] Database integration (PostgreSQL, MongoDB)
-- [ ] Metrics and statistics tracking
-- [ ] Web dashboard
-- [ ] Event replay from historical blocks
 
 ## Contributing
 
@@ -575,11 +560,6 @@ Built with:
 - [ethers-rs](https://github.com/gakonst/ethers-rs) - Ethereum library for Rust
 - [tokio](https://tokio.rs/) - Asynchronous runtime
 - [clap](https://github.com/clap-rs/clap) - Command line argument parser
-
-## Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/listener/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/listener/discussions)
 
 ---
 
